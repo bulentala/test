@@ -4,7 +4,7 @@ import slugify from "slugify";
 const CharacterDetails = ({ characters }) => {
   return (
     <Layout>
-      <pre>{JSON.stringify(characters.name, null, 2)}</pre>
+      <pre></pre>
     </Layout>
   );
 };
